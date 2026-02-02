@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name ="description" content="ceci est le portfolio de Ceccaldi Morgan"/>
+  <title>Portfolio - Projet E-commerce Informatique</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <span class="logo-mark"><img src="asset/Logo_Last_Version.png" alt="logo"></span>
+        <span class="logo-text">Portfolio</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#projet">Projet</a>
+        <a href="#fonctionnalites">Fonctionnalites</a>
+        <a href="#ui">UI</a>
+        <a href="#tech">Tech</a>
+        <a href="#resultats">Resultats</a>
+        <a class="btn btn-small" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="projet">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="badge">Projet portfolio - E-commerce</p>
+          <h1>Site de vente de matériel informatique</h1>
+          <p class="subtitle">
+            Conception d'une boutique en ligne (PC, composants, peripheriques) proposant un sytème inédit de précommande avec une
+            experience d'achat rapide, claire et rassurante.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#ui">Voir les maquettes</a>
+            <a class="btn btn-ghost" href="#tech">Details techniques</a>
+          </div>
+
+          <ul class="meta">
+            <li><strong>Role :</strong> UI/UX + Front</li>
+            <li><strong>Durée :</strong> 3 semaines</li>
+            <li><strong>Livrables :</strong> page d'accueil, listing, fiche produit, panier</li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <div class="mockup">
+            <img src="asset/Maquette PC preview.png"
+                 alt="Apercu du projet e-commerce informatique" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contexte -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contexte & objectif</h2>
+          <p>
+            L'objectif : créer une boutique en ligne fiable et simple a utiliser, adaptée aux
+            utilisateurs qui comparent beaucoup (prix, avis, compatibilité, caractéristiques) et proposer un sytème de précommande fiable et sécurisé afin d'éviter les flux trop important lors des sorties de certains composants soumis aux ruptures de stocks à leur lancement.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Problème</h3>
+            <p>
+              Enorme pénurie sur plusieurs composants ainsi que trop de produits, trop de specs : l'utilisateur se perd et hésite a acheter.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Solution</h3>
+            <p>
+              Système de précommande fiable et sécurisé afin d'assurer la disponibilité des composants avant leur sortie, filtres lisibles, fiches produits claires, infos de livraison/retour visibles, panier rapide.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Cible</h3>
+            <p>
+              étudiants, gamers, pros IT : besoin de comparaison et d'achats "sans prise de tête".
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fonctionnalites -->
+    <section class="section section-alt" id="fonctionnalites">
+      <div class="container">
+        <div class="section-head">
+          <h2>Fonctionnalités clés</h2>
+          <p>Ce que l'utilisateur peut faire sur le site.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="list">
+            <div class="list-item">
+              <span class="dot"></span>
+              <div>
+                <h3>Recherche & filtres</h3>
+                <p>Filtrer par marque, prix, performance, disponibilité, notes.</p>
+              </div>
+            </div>
+
+            <div class="list-item">
+              <span class="dot"></span>
+              <div>
+                <h3>Comparateur</h3>
+                <p>Comparer plusieurs produits (GPU/CPU/PC) sur les specs principales.</p>
+              </div>
+            </div>
+
+            <div class="list-item">
+              <span class="dot"></span>
+              <div>
+                <h3>Fiche produit</h3>
+                <p>Spécifications, compatibilité, avis, questions, produits similaires.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="list">
+            <div class="list-item">
+              <span class="dot"></span>
+              <div>
+                <h3>Panier & checkout</h3>
+                <p>Ajout rapide, estimation livraison, paiement en plusieurs fois (concept).</p>
+              </div>
+            </div>
+
+            <div class="list-item">
+              <span class="dot"></span>
+              <div>
+                <h3>Compte client</h3>
+                <p>Historique, suivi colis, retours simplifiés, wishlist.</p>
+              </div>
+            </div>
+
+            <div class="list-item">
+              <span class="dot"></span>
+              <div>
+                <h3>Reassurance</h3>
+                <p>Livraison/retour, garantie, SAV, badges securité et avis visibles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UI / Maquettes -->
+    <section class="section" id="ui">
+      <div class="container">
+        <div class="section-head">
+          <h2>UI - ecrans principaux</h2>
+          <p>Interface PC.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img src="asset/Maquette PC home page.png" alt="ecran d'accueil" />
+            <figcaption>Accueil - categories et promos</figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img src="asset/Maquette PC Listing.png" alt="Listing précommande" />
+            <figcaption>Listing - cartes produits</figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img src="asset/Maquette PC fiche produit precommande.png" alt="Fiche produit précommande" />
+            <figcaption>Fiche produit - specs + avis</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech -->
+    <section class="section section-alt" id="tech">
+  <div class="container">
+
+    <div class="section-head">
+      <h2>Stack & methode</h2>
+
+      <div class="tech-text">
+        <p>
+          Pour la réalisation de ce projet, j’ai suivi une démarche de conception complète,
+          de l’idéation à l’intégration.
+        </p>
+
+        <p>
+          J’ai d’abord travaillé sur l’identité visuelle en utilisant Adobe Illustrator,
+          afin de concevoir le logo et différents assets graphiques nécessaires à l’univers du site.
+        </p>
+
+        <p>
+          Une fois cette base définie, j’ai utilisé Figma pour concevoir l’interface.
+          J’ai commencé par une phase de réflexion UX avec un zoning réalisé à la main
+          sur feuille A4, me permettant de structurer rapidement les pages.
+        </p>
+
+        <p>
+          J’ai ensuite réalisé des wireframes pour plusieurs écrans clés, notamment la page d’accueil,
+          afin de valider les parcours utilisateurs et l’organisation des contenus.
+        </p>
+
+        <p>
+          La maquette UI a été conçue en exploitant les fonctionnalités avancées de Figma,
+          notamment l’Auto Layout, les composants parent/enfant et les variants
+          pour les différents états interactifs.
+        </p>
+
+        <p class="tech-highlight">
+          Cette méthodologie m’a permis de produire une interface cohérente,
+          évolutive et pensée pour une intégration responsive en HTML et CSS.
+        </p>
+      </div>
+    </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Technos</h3>
+            <ul class="tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Responsive</li>
+              <li>Accessibilite</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>UX</h3>
+            <ul class="bullets">
+              <li>Arborescence simple</li>
+              <li>Reassurance + confiance</li>
+              <li>Hierarchie visuelle claire</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Ameliorations futures</h3>
+            <ul class="bullets">
+              <li>Page comparateur fonctionnelle</li>
+              <li>Optimisation SEO</li>
+              <li>Backend + API produits</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- Resultats -->
+<section class="section" id="resultats">
+  <div class="container">
+
+    <div class="section-head">
+      <h2>Résultats & apprentissages</h2>
+      <p>
+        Ce projet m’a permis de consolider mes compétences en conception UI/UX
+        et en intégration front-end, tout en identifiant des axes d’amélioration.
+      </p>
+    </div>
+
+    <div class="quote">
+      <p>
+        “Ce projet m’a appris à structurer une page projet complète, à concevoir
+        une interface claire et cohérente, et à intégrer un layout responsive
+        de manière propre et maintenable.”
+      </p>
+      <span>— Note de projet</span>
+    </div>
+
+    <div class="results-points">
+      <ul>
+        <li>
+          <strong>Structuration :</strong>
+          meilleure organisation des sections, hiérarchie de l’information
+          plus lisible et parcours utilisateur plus fluide.
+        </li>
+
+        <li>
+          <strong>UI & cohérence visuelle :</strong>
+          travail approfondi sur la réutilisabilité des composants,
+          la constance des styles et l’alignement avec l’identité visuelle.
+        </li>
+
+        <li>
+          <strong>Responsive & intégration :</strong>
+          amélioration de ma compréhension des layouts responsives
+          en HTML et CSS, avec une attention portée à la lisibilité
+          sur tous les formats d’écran.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact">
+        <div>
+          <h2>Contact</h2>
+          <p>ceccaldi.morgan@gmail.com / LinkedIn / GitHub.</p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn" href="mailto:tonmail@email.com">M'envoyer un email</a>
+          <a class="btn btn-ghost" href="#">Voir mes autres projets</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> - Ceccaldi Morgan</p>
+      <p class="small">Fait avec HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
